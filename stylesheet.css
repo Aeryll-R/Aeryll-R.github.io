@@ -167,9 +167,6 @@ body {
 }
 
 
-
-
-
 /*ABOUT SECTION */
 .photo-frame {
   border: 1px solid var(--border-light);
@@ -233,9 +230,6 @@ body {
 }
 
 
-
-
-
 .portfolio-compact-container {
   max-width: 1140px; 
   margin: 0 auto;
@@ -256,14 +250,19 @@ body {
 .proj-thumb {
   position: relative;
   width: 100%;
-  height: 220px; /* adjust to match your card proportions */
+  height: 220px;
   overflow: hidden;
-  border-radius: 12px 12px 0 0; /* match your card's top corners */
+  border-radius: 8px 8px 0 0;
+  background-color: var(--bg-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
 .proj-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* crops image to fill the box without distortion */
+  object-fit: cover;
   display: block;
 }
 .proj-thumb-num {
@@ -271,7 +270,7 @@ body {
   top: 16px;
   right: 16px;
   font-weight: bold;
-  color: #fff; /* change depending on image brightness */
+  color: #fff;
   z-index: 2;
 }
 .proj-body {
@@ -336,10 +335,6 @@ body {
 .proj-link:hover {
   color: var(--pink-hover);
 }
-
-
-
-
 
 
 .contact-inner {
