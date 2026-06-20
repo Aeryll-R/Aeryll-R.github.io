@@ -428,3 +428,7 @@ footer p {
   opacity: 1;
   transform: translateY(0);
 }
+
+.cert-badge {
+    margin-bottom: 0.5rem;
+}
